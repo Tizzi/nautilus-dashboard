@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "KEEL",
+      "hasCanvas": true,
+      "bodyTextLen": 1704,
+      "bodyTextHash": "1ffb933b337172367f3f323c7613c66362585b9aa24ab4d6b2ef289e00b0977a",
+      "bodyTextPrefix": "KEEL DUAL-ENGINE DESK BTC-USDT 105,873.70 +2.6% ETH-USDT 708.25 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "KEEL",
+      "hasCanvas": true,
+      "bodyTextLen": 325,
+      "bodyTextHash": "7f40ceb7c4d324306e1e8005896b90ae45dafce01f5daa1785ea420551e8e2d6",
+      "bodyTextPrefix": "KEEL Vector Nautilus Dry-run Compare Arm dry-run BTC-USDT 1d SMA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [
+        "Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <MatchImpl routeId=\"/\">\n      <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n        <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n          <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n            <Lazy>\n              <Home>\n                <Desk>\n                  <div className=\"flex min-h...\">\n                    <Header>\n                      <header className=\"flex flex-...\">\n                        <div className=\"flex items...\">\n                          <div>\n                          <Ticker>\n                          <div className=\"ml-auto fl...\">\n                            <span>\n                            <Clock>\n                              <time\n                                className=\"hidden font-mono text-2xs text-subtle tabular sm:block\"\n+                               dateTime=\"2026-10-02T08:20:18.191Z\"\n-                               dateTime=\"2026-10-02T08:20:17.379Z\"\n                              >\n+                               UTC book · 2026-10-01\n                            ...\n                        ...\n                    <StatusStrip>\n                    ...\n                      <SidePanel result={{engine:\"ve...\", ...}}>\n                        <div className=\"flex h-ful...\">\n                          <div>\n                          <div className=\"min-h-0 fl...\">\n                            <StatsGrid stats={{...}} runtimeMs={5.199999999953434}>\n                              <div>\n                                <div>\n                                <p className=\"mt-2 px-1 ...\">\n+                                 5.2ms\n-                                 1.0ms\n                    ...\n"
+      ],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
